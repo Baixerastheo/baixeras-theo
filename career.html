@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">About me</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideTitle"><a href="index.html">Baixeras Théo</a></li>
+            <li class="hideOnMobile"><a href="index.html">About me</a></li>
+            <li class="hideOnMobile"><a href="career.html">Career</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li hidden class="showOnMobile" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li> 
+        </ul>
+
+        <script src="script.js"></script>
+    </nav>
+
+    <section>
+        <div class="presentation">
+            <div class="header-row">
+                <h1>Academic Background</h1>
+                <div class="loader">
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                </div>
+            </div>
+
+            <div class="education-section">
+                <div class="education-item">
+                    <div class="education-header">
+                        <h2>Epitech</h2>
+                        <span class="education-period">2025</span>
+                    </div>
+                    <div class="education-content">
+                        <h3>Pré MSC Pro</h3>
+                        <p>Software development training with an innovative pedagogical approach based on practice and projects. Acquisition of skills in programming, algorithms, and web technologies.</p>
+                        <div class="education-skills">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-separator"></div>
+
+                <div class="education-item">
+                    <div class="education-header">
+                        <h2>Lycée Public Marc Bloch</h2>
+                        <span class="education-period">2023 - 2025</span>
+                    </div>
+                    <div class="education-content">
+                        <h3>BTS SIO</h3>
+                        <p>The BTS SIO trains students for careers in IT and software development.</p>
+                        <div class="education-skills">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">Networks</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Cybersecurity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-separator"></div>
+
+                <div class="education-item">
+                    <div class="education-header">
+                        <h2>Lycée Privée François Rabelais</h2>
+                        <span class="education-period">2020 - 2023</span>
+                    </div>
+                    <div class="education-content">
+                        <h3>STMG</h3>
+                        <p>The STMG is a general education with an orientation towards management, marketing and economics.</p>
+                        <div class="education-skills">
+                            <span class="skill-tag">Mathematics</span>
+                            <span class="skill-tag">Sciences</span>
+                            <span class="skill-tag">Scratch</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Baixeras Théo. Tous droits réservés.</p>
+            <div class="footer-links">
+                <a href="mailto:theo.baixeras@gmail.com">Email</a>
+                <a href="https://www.https://www.linkedin.com/in/theo-baixeras-198231382/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Baixerastheo" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

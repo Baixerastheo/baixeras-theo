@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="26px" fill="#e3e3e3">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="index.html">About me</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideTitle"><a href="index.html">Baixeras Théo</a></li>
+            <li class="hideOnMobile"><a href="index.html">About me</a></li>
+            <li class="hideOnMobile"><a href="career.html">Career</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li hidden class="showOnMobile" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+
+        <script src="script.js"></script>
+    </nav>
+
+    <section>
+        <div class="presentation">
+            <div class="header-row">
+                <h1>Digital Resume</h1>
+                <div class="loader">
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                    <div class="loader-square"></div>
+                </div>
+            </div>
+
+            <h3>Hello ! I'm Théo</h3>
+
+            <p class="firstSentence">
+                I have been studying at Epitech since the start of the 2025 academic year <br>
+                and am currently looking for a work-study program in software development.
+            </p>
+
+            <p class="secondSentence">
+                My previous experiences have allowed me to acquire solid skills,<br>
+                which I would like to present to you through this portfolio.
+            </p>
+
+            <a href="CV.pdf" target="_blank" class="btn-primary">Curriculum vitae</a>
+
+            <div class="tabbed">
+                <input type="radio" name="tabs" id="tab-nav-1" checked>
+                <label for="tab-nav-1">Hardskills</label>
+                <input type="radio" name="tabs" id="tab-nav-2">
+                <label for="tab-nav-2">Softskills</label>
+                <input type="radio" name="tabs" id="tab-nav-3">
+                <label for="tab-nav-3">Projects</label>
+                <input type="radio" name="tabs" id="tab-nav-4">
+                <label for="tab-nav-4">History</label>
+                <div class="tabs">
+                    <div>
+                        <h2>Hardskills</h2>
+                        <p><strong>Programming languages:</strong> <br>Python, Java, Php, C#, JavaScript, HTML, CSS</p>
+                        <p><strong>Frameworks:</strong> <br>Angular, Node.js, Express, Tailwind, Bootstrap</p>
+                        <p><strong>Tools:</strong> <br>Git, Github, Figma, Wordpress, Jetbrains, Adobe</p>
+                        <p><strong>Databases:</strong> <br>MySQL, PostgreSQL, MongoDB</p>
+                        <p><strong>Operating Systems:</strong> <br>Linux, Windows, WSL</p>
+                    </div>
+                    <div>
+                        <h2>Softskills</h2>
+                        <p><strong>Teamwork,</strong> <br><strong>Communication,</strong> <br><strong>Adaptability,</strong> <br><strong>Problem-solving,</strong> <br><strong>Time management</strong></p>
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Projects</h2>
+                        <p><strong>Portfolio,</strong> <br><strong>Blog,</strong></strong> <br><strong>eCommerce Website,</strong> <br><strong>Game,</strong> <br><strong>Application C# Music search engine</strong></p>
+                    </div>
+                    <div>
+                        <h2>History</h2>
+                        <p>Currently, at Epitech, I am working on various projects, either alone or in groups, with the aim of learning different programming languages.</p>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Baixeras Théo. Tous droits réservés.</p>
+            <div class="footer-links">
+                <a href="mailto:theo.baixeras@gmail.com">Email</a>
+                <a href="https://www.https://www.linkedin.com/in/theo-baixeras-198231382/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Baixerastheo" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
